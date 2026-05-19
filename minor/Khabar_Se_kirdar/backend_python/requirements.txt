@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+python-dotenv
+groq
+pydantic
+gtts
+speechrecognition
+pydub
+moviepy
+opencv-python
+matplotlib
+numpy
+pillow
+python-multipart
+langdetect

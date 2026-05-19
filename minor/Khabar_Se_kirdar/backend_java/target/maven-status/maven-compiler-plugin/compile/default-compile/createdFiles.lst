@@ -1,0 +1,10 @@
+com\ksk\controller\AdminController.class
+com\ksk\controller\NewsController.class
+com\ksk\model\User.class
+com\ksk\repository\SummaryRepository.class
+com\ksk\BackendApp.class
+com\ksk\model\Summary.class
+com\ksk\repository\NewsRepository.class
+com\ksk\repository\UserRepository.class
+com\ksk\controller\AuthController.class
+com\ksk\model\News.class

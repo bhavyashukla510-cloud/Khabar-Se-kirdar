@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans:
+    "DM Sans", "Noto Sans Devanagari", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Nastaliq Urdu",
+    ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", var(--font-sans);
+  --color-surface: #0b1224;
+  --color-glass: rgba(15, 23, 42, 0.65);
+  --color-accent: #38bdf8;
+  --color-accent2: #a855f7;
+}
+
+@layer base {
+  html {
+    @apply antialiased;
+  }
+  body {
+    @apply m-0 min-h-svh bg-[#020617] text-slate-200 font-sans;
+    background-image:
+      radial-gradient(ellipse 120% 80% at 50% -20%, rgba(56, 189, 248, 0.15), transparent),
+      radial-gradient(ellipse 80% 50% at 100% 50%, rgba(168, 85, 247, 0.08), transparent);
+  }
+  #root {
+    @apply min-h-svh w-full;
+  }
+}
+
+.glass-panel {
+  @apply rounded-2xl border border-white/10 bg-white/5 shadow-[0_8px_32px_rgba(0,0,0,0.35)] backdrop-blur-xl;
+}

@@ -1,0 +1,8 @@
+
+AI VIDEO GENERATED (SIMULATION MODE)
+
+Prompt:
+cute cats and dogs are playing
+
+Status:
+Video generated successfully without external dependencies.
