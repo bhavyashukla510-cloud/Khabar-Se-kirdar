@@ -3,8 +3,7 @@ venv/
 env/
 __pycache__/
 *.pyc
-node_modules/
-outputs/
-*.png
-*.mp4
-*.avi
+*.pyd
+*.exe
+*.dll
+backend_java/venv/
