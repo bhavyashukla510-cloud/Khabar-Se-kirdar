@@ -6,4 +6,5 @@ __pycache__/
 *.pyd
 *.exe
 *.dll
-backend_java/venv/
+node_modules/
+outputs/
