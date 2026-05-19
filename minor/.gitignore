@@ -4,3 +4,7 @@ env/
 __pycache__/
 *.pyc
 node_modules/
+outputs/
+*.png
+*.mp4
+*.avi
